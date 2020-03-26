@@ -16,7 +16,7 @@ VALUES
   ('Around the World in 80 days','80 days around the world, we''ll find a pot of gold just sitting where the rainbow''s ending. Time — we''ll fight against the time, and we''ll fly on the white wings of the wind. 80 days around the world, no we won''t say a word before the ship is really back. Round, round, all around the world. Round, all around the world. Round, all around the world. Round, all around the world.', now() - '10 days'::INTERVAL),
   ('Quarantini', 'Add 2 oz gin, .5 oz sweet vermouth, a dash of bitters, and your fucking tears of boredom and isolation into a shaker with ice. Shake vigorously and strain into a martini glass. Serve to yourself.', now() - '9 days'::INTERVAL),
   ('Jack', 'All work and no play make Jack a dull boy. All work and no play make Jack a dull boy. All work and no play make Jack a dull boy. All work and no play make Jack a dull boy. ALL WORK AND NO PLAY MAKE JACK A DULL BOY. ALL WORK AND NO PLAY MAKE JACK A DULL BOY. ALL WORK AND NO PLAY MAKE JACK A DULL BOY. ALL WORK AND NO PLAY MAKE JACK A DULL BOY.', now() - '8 days'::INTERVAL),
-  ('This...', '...is getting tedious.'now() - '7 days'::INTERVAL),
+  ('This...', '...is getting tedious.', now() - '7 days'::INTERVAL),
   ('Title to be determined', 'Placeholder text', now() - '6 days'::INTERVAL),
   ('Lorem Dipshit', 'Lorem ipsum dolor sit amet, at insolens consulatu percipitur nam, cu aliquando interesset vix. Ea eos nulla aliquid ancillae, sit latine scaevola ocurreret an. Graeco nostrum salutandi ex per, et idque epicurei est. Numquam deleniti senserit ad eos, id altera oportere reprehendunt quo.', now() - '5 days'::INTERVAL),
   ('I''m done!', 'With all this stupid dummy data! I hope it works...', now() - '1 days'::INTERVAL)
