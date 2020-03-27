@@ -1,6 +1,8 @@
 const ShoppingListService = require('../src/shopping-list-service');
+// make queries return decimal types as numbers not strings
 const pg = require('pg');
 pg.types.setTypeParser(1700, 'text', parseFloat);
+
 const knex = require('knex');
 
 // describe test suite
